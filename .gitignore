@@ -1,0 +1,32 @@
+# runtime / private data
+config.json
+runtime.json
+token
+state/
+logs/
+*.db
+*.sqlite
+*.sqlite3
+shots/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.log
+*.ndjson
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# node
+node_modules/
+npm-debug.log*
+
+# editors
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

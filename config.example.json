@@ -1,0 +1,68 @@
+{
+  "wechat": {
+    "title": "WeChat",
+    "class": "Qt51514QWindowIcon",
+    "group": "WeChat Bridge",
+    "rect": {"x": 0, "y": 0, "w": 548, "h": 1549},
+    "auto_resize": true,
+    "scan_interval_ms": 1000,
+    "layout": {
+      "chat_header": [90, 36, -12, 100],
+      "msg_area": [98, 100, -12, -114],
+      "input_box": [-1, -79],
+      "send_file_btn": [-62, -52],
+      "back_btn": [-158, 68],
+      "chat_list": [90, 100, -12, 900],
+      "msg_right_align": 449,
+      "input_text": [96, -113, -12, -69],
+      "bottom_verify": [-400]
+    }
+  },
+  "ocr": {
+    "url": "http://127.0.0.1:1224/api/ocr",
+    "timeout_ms": 8000,
+    "retry": 2
+  },
+  "dsh": {
+    "runtime_file": "C:\\Users\\Public\\.dsh\\dsh-wechat-bridge\\runtime.json",
+    "token_file": "C:\\Users\\Public\\.dsh\\dsh-wechat-bridge\\token",
+    "expected_session_title": "WeChat Bridge",
+    "inbound_timeout_ms": 15000,
+    "poll_timeout_ms": 20000,
+    "health_timeout_ms": 3000,
+    "reply_timeout_ms": 600000,
+    "reconnect_backoff_ms": 5000,
+    "client_time_zone": "Asia/Shanghai"
+  },
+  "paths": {
+    "base": "C:\\Users\\Public\\Desktop\\WeChatBridgeData",
+    "wechat_files": "C:\\Users\\Public\\Documents\\xwechat_files",
+    "state": "state"
+  },
+  "limits": {
+    "outbound_text_max": 1200,
+    "long_text_threshold": 300,
+    "attachments_max": 2
+  },
+  "scheduler": {
+    "enabled": true
+  },
+  "send": {
+    "type_delay_ms": 28,
+    "dialog_wait_ms": 900,
+    "after_send_wait_ms": 900
+  },
+  "inbound": {
+    "image_fallback_notice": true,
+    "image_notice_text": "This bridge version cannot read inbound images automatically. Please send text or PDF."
+  },
+  "prompt": {
+    "node_exe": "",
+    "node_workdir": "C:\\dsh-wechat-bridge\\tools",
+    "node_path": "C:\\dsh-wechat-bridge\\tools\\node_modules"
+  },
+  "logging": {
+    "level": "info",
+    "keep_text": false
+  }
+}

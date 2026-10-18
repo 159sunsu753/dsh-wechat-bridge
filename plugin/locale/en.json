@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "WeChat Bridge",
+    "description": "Loopback-only HTTP bridge that injects WeChat messages into a fixed \"WeChat Bridge\" Session and long-polls that Session's events. Requires the bridge Bearer token."
+  }
+}

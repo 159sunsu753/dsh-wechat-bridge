@@ -1,0 +1,13 @@
+- insert:
+    - id: wechat-bridge
+      name: '@local/dsh-wechat-bridge'
+      config:
+        sessionId: ''
+        sessionTitle: WeChat Bridge
+        cwd: 'C:\dsh-wechat-bridge'
+        pathPrefix: /dsh-wechat-bridge
+        defaultMode: queue
+        clientTimeZone: Asia/Shanghai
+        maxBodyBytes: 33554432
+        eventTimeoutMs: 25000
+        stateDir: null

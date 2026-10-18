@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="WeChat Bridge">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#0f7a4d"/>
+  <path d="M18 18h22a8 8 0 0 1 8 8v10a8 8 0 0 1-8 8H30l-8 7v-7h-4a4 4 0 0 1-4-4V22a4 4 0 0 1 4-4z" fill="#ffffff"/>
+  <circle cx="27" cy="29" r="2.6" fill="#0f7a4d"/>
+  <circle cx="37" cy="29" r="2.6" fill="#0f7a4d"/>
+  <path d="M23 36h14" stroke="#0f7a4d" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M46 44c5-2 8-6 8-12" stroke="#8ff0bd" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M52 46l2 4-4-1z" fill="#8ff0bd"/>
+</svg>

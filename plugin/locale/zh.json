@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "微信桥接",
+    "description": "仅供本机回环调用的 HTTP 桥接：把微信消息注入固定的「WeChat Bridge」会话，并用长轮询读出该会话的事件。需要 Bridge token 鉴权。"
+  }
+}
