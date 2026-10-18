@@ -117,6 +117,15 @@ DeepSeek Harness（DSH）会话；再把 DSH 的回复（文本/文件）发回�
 - `config.json`、`state/`、`logs/`、`*.db`、`token`、`runtime.json`
   不进入 Git。
 
+## 署名与致谢
+
+- **开发**：本仓库的代码、调试与文档整理由 **DeepSeek Harness（DSH）AI 代理**全程完成。
+- **指导 / 验收 / 发布决策**：**159sunsu753**（GitHub）。
+- **特别致谢**：**杭州深度求索人工智能基础技术研究有限公司**（DeepSeek），
+  感谢 DSH 与模型能力让这套桥接得以从需求、验证、实现到文档完整落地。
+- 本项目是独立个人项目，不代表 DeepSeek 官方立场，也不构成任何背书或支持关系。
+- 脱敏后的开发流程与设计思路见 [`DEVELOPMENT.md`](DEVELOPMENT.md)。
+
 ## 许可证
 
 MIT，见 [`LICENSE`](LICENSE)。

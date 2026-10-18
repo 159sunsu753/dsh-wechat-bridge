@@ -110,6 +110,18 @@ See `SECURITY.md` and `PRIVACY.md` for details.
 - If you publish logs/screenshots in an issue, redact names, phone numbers,
   order numbers, and chat content first.
 
+## Credits
+
+- **Development**: the code, debugging, and documentation in this repository were
+  produced end-to-end by the **DeepSeek Harness (DSH) AI agent**.
+- **Direction / acceptance / release decisions**: **159sunsu753** (GitHub).
+- **Special thanks**: **Hangzhou DeepSeek Artificial Intelligence Basic Technology
+  Research Co., Ltd.** (DeepSeek), for the DSH and model capabilities that made
+  this bridge possible from requirements to documentation.
+- This is an independent personal project; it does not represent DeepSeek
+  officially and implies no endorsement or support.
+- A sanitized development write-up is in [`DEVELOPMENT.md`](DEVELOPMENT.md).
+
 ## License
 
 MIT. See `LICENSE`.
